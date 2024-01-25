@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-size: 2em;
+}
+
+main {
+  padding: 100px 0;
+  background-color: antiquewhite;
+  /* margin: 2em; */
+}
+
+.row {
+  max-width: 1440px;
+  min-width: 375px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.div-three{
+    line-height: 1.5em;
+}
+
+.div-two {
+    background-color: rgb(255, 246, 252);
+    padding: 3px 30px;
+    line-height: 1.5em;
+}
+
+h2{
+    color: rgb(122, 61, 88);
+}
+
+.brand-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.styled-table{
+   border-collapse: collapse;
+   width: 100%;
+   min-width: 400px;
+}
+
+.styled-table tr{
+    border-bottom: 1px solid grey;  
+}
+
+.styled-table td{
+    padding: 14px 60px;
+}
+
+.styled-table td:nth-child(2){
+    color: brown;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+ul li::marker {
+    color: rgb(101, 39, 64);
+}
+
+ol li::marker {
+    color: rgb(103, 59, 54);
+}
